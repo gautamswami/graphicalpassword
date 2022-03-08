@@ -1,3 +1,7 @@
+function showLogin(){
+        document.getElementById('login-container').classList.toggle('showLogin')
+
+}
 function displayRadioValue() {
         var ele = document.getElementsByName('fruit');
          var ele1 =  document.getElementsByName('fruit1');
@@ -18,4 +22,6 @@ function displayRadioValue() {
             document.getElementById("result2").innerHTML
                     = "SELECTED FROM BOX 3: "+ele2[i].value ;
         }
+       
     }
+

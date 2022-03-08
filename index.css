@@ -14,6 +14,16 @@
     .main-container{
     text-align:center;
     }
+    .main-login{
+      display: none ;
+    }
+    .showLogin{
+      display: block;
+        display: grid;
+    place-content: center; 
+       width: 100%;
+    
+    }
     .main-login img{
         width: 250px;
         height: 250px;

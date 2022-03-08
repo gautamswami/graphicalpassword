@@ -14,7 +14,7 @@
         <div class='logo-div'><img class='logo-img' src='https://www.sih.gov.in/img1/SIH2022-white-logo.png' alt='logo'></div>
           <div class='header-menu'>
           <div class='login-div'>
-            <button> LOGIN </button>
+            <button onclick="showLogin()"> LOGIN </button>
             </div>
           <div class='login-div'>
             <button> SIGNUP </button> 
@@ -26,14 +26,12 @@
         <h1 class='content'>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar mattis nunc sed blandit libero volutpat sed. Eu tincidunt tortor aliquam nulla. Est ultricies integer quis auctor elit sed. Mi tempus imperdiet nulla malesuada pellentesque elit. At volutpat diam ut venenatis tellus. Cursus risus at ultrices mi tempus imperdiet. Risus commodo viverra maecenas accumsan lacus. Odio pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus. Massa massa ultricies mi quis.</h1>
         
-        <div class='main-login'>
-          
+        <div class='main-login' id='login-container'>
+          <h1>LOGIN HERE </h1> <h1 id = 'clos' onclick="closeLogin()" > click to close  </h1>
           <form action=" " method="get">
-        <label for="fname">First name:</label>
+        <label for="fname">user name:</label>
         <input type="text" id="fname" name="fname"><br><br>
-        <label for="lname">Last name:</label>
-        <input type="text" id="lname" name="lname"><br><br>
-
+             <h2>SELECT YOUR PASSWORD</h2> 
 <input type="radio" name="fruit" value="apple" id="apple" class="input-hidden" />
 <label for="apple">
   <img src="asset/apple.jpg" alt="Apple" />
