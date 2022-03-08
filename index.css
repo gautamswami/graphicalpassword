@@ -29,9 +29,10 @@ font-family: montserratsemibold;
   
   }
   .main-login img{
-      width: 250px;
-      height: 250px;
-
+      width: 150px;
+      height: 150px;
+      margin: 1px;
+      border: 1px solid;
   }
 
   .input-hidden {
@@ -81,4 +82,12 @@ color:white;
 font-size:17px;
 border-radius:5px;
 cursor:pointer;
+}
+.allboxes{
+  display: flex;
+}
+.box{
+  border: 1px solid red;
+  margin: 2px;
+  margin-right: 10px;
 }
