@@ -2,6 +2,10 @@ function showLogin(){
         document.getElementById('login-container').classList.toggle('showLogin')
 
 }
+function closL(){
+    document.getElementById('login-container').classList.toggle('showLogin')
+
+}
 function displayRadioValue() {
         var ele = document.getElementsByName('fruit');
          var ele1 =  document.getElementsByName('fruit1');
