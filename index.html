@@ -17,7 +17,7 @@
           <button class='loginBtn' onclick="showLogin()"> LOGIN </button>
           </div>
         <div class='login-div'>
-          <button class='signBtn'> SIGNUP </button> 
+          <button class='signBtn' onclick="showSignup()"> SIGNUP </button> 
           </div>
       </div>
       
@@ -31,6 +31,104 @@
         <form action=" " method="get">
       <label for="fname">user name:</label>
       <input type="text" id="fname" name="fname"><br><br>
+           <h2>SELECT YOUR PASSWORD</h2> 
+           <div class="allboxes">
+           <div class="box">
+<input type="radio" name="fruit" value="apple" id="apple" class="input-hidden" />
+<label for="apple">
+<img src="asset/apple.jpg" alt="Apple" />
+</label>
+<input type="radio" name="fruit" value="orange" id="orange" class="input-hidden" />
+<label for="orange">
+<img  src="asset/orange.jpg"  alt="Orange" />
+</label>
+
+<br>
+
+<input type="radio" name="fruit" value="melon" id="melon" class="input-hidden" />
+<label for="melon">
+<img  src="asset/melon.jpg"  alt="Melon" />
+</label>
+<input type="radio" name="fruit" value="kiwi" id="kiwi" class="input-hidden" />
+<label for="kiwi">
+<img  src="asset/kiwi.jpg"  alt="Kiwi" />
+</label>
+</div>
+
+<!-- <span >ANOTHER BOX</span> -->
+<div class="box">
+<input type="radio" name="fruit1" value="kiwi1" id="kiwi1" class="input-hidden" />
+<label for="kiwi1">
+<img  src="asset/kiwi.jpg"  alt="Kiwi" />
+</label>
+<input type="radio" name="fruit1" value="apple1" id="apple1" class="input-hidden" />
+<label for="apple1">
+<img src="asset/apple.jpg" alt="Apple" />
+</label>
+
+<br>
+
+<input type="radio" name="fruit1" value="orange1" id="orange1" class="input-hidden" />
+<label for="orange1">
+<img  src="asset/orange.jpg"  alt="Orange" />
+</label>
+<input type="radio" name="fruit1" value="melon1" id="melon1" class="input-hidden" />
+<label for="melon1">
+<img  src="asset/melon.jpg"  alt="Melon" />
+</label>
+</div>
+<!-- <p>  ANOTHER BOX </p> -->
+<div class="box">
+<input type="radio" name="fruit2" value="kiwi2" id="kiwi2" class="input-hidden" />
+<label for="kiwi2">
+<img  src="asset/kiwi.jpg"  alt="Kiwi" />
+</label>
+<input type="radio" name="fruit2" value="apple2" id="apple2" class="input-hidden" />
+<label for="apple2">
+<img src="asset/apple.jpg" alt="Apple" />
+</label>
+
+<br>
+
+
+<input type="radio" name="fruit2" value="orange2" id="orange2" class="input-hidden" />
+<label for="orange2">
+<img  src="asset/orange.jpg"  alt="Orange" />
+</label>
+<input type="radio" name="fruit2" value="melon2" id="melon2" class="input-hidden" />
+<label for="melon2">
+<img  src="asset/melon.jpg"  alt="Melon" />
+</label>
+
+</div>
+</div>
+
+</form>
+        
+<!-- <input type="submit" value="Submit"> -->
+<button class="loginButton" type="button" onclick="displayRadioValue()">
+   REGISTER 
+</button>
+
+<br>
+
+<div id="result">SELECTED FRUIT APPEAR HERE</div>
+<div id="result1">SELECTED FRUIT APPEAR HERE From box 2</div>
+<div id="result2">SELECTED FRUIT APPEAR HERE From box 3</div>
+
+
+   
+    
+
+      </div>
+      
+      <div class='main-signupp' id='signup-container'>
+        <h1>CREATE ACCOUNT</h1> <button id="clos" onclick="closS()" >X</button>
+        <form action=" " method="get">
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname"><br>
+      <label for="lname">Last name:</label>
+      <input type="text" id="lname" name="lname"><br><br>
            <h2>SELECT YOUR PASSWORD</h2> 
            <div class="allboxes">
            <div class="box">
@@ -121,7 +219,6 @@
     
 
       </div>
-      
       
     </div>
 

@@ -21,11 +21,18 @@
   text-align:center;
   }
   .main-login{
-   opacity: 0;
+   height: 0;
    position: relative;
+   overflow: hidden;
   }
+  .main-signupp{
+    height: 0;
+    overflow: hidden;
+    position: relative;
+   }
   .showLogin{
-    opacity: 1;
+    height: 100%;
+
       display: grid;
   place-content: center; 
      width: 70%;
@@ -34,6 +41,22 @@
     transition: .3s ease;
     border-radius: 8px;
     box-shadow: 0 0 10px 0px #ffd8c7d4;
+  }
+  .hideLogin{
+    height: 0;
+  }
+  .showSignup{
+    
+      height: 100%;
+        display: grid;
+    place-content: center; 
+       width: 70%;
+       margin: 0 auto;
+      /* border: 1px solid ; */
+      transition: .3s ease;
+      border-radius: 8px;
+      box-shadow: 0 0 10px 0px #ffd8c7d4;
+    
   }
   #clos{
     position: absolute;
@@ -51,7 +74,14 @@
       border: 1px solid;
       cursor: pointer;
 }
-  .input-hidden {
+.main-signupp img{
+  width: 150px;
+  height: 150px;
+  margin: 1px;
+  border: 1px solid;
+  cursor: pointer;
+} 
+.input-hidden {
       position: absolute;
       left: -9999px;
     }

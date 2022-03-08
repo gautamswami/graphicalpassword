@@ -1,9 +1,24 @@
 function showLogin(){
         document.getElementById('login-container').classList.toggle('showLogin')
-
+//         let x = document.getElementById('signup-container');
+//    if(x.className='showSignup'){
+//         console.log('hello')
+//    }
+        
+   
 }
 function closL(){
     document.getElementById('login-container').classList.toggle('showLogin')
+
+}
+function showSignup(){
+    document.getElementById('signup-container').classList.toggle('showSignup')
+    // document.getElementById('login-container').classList.toggle('showLogin')
+    document.getElementById('login-container').classList.toggle('hideLogin')
+ 
+}
+function closS(){
+document.getElementById('signup-container').classList.toggle('showSignup')
 
 }
 function displayRadioValue() {
